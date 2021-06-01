@@ -12,13 +12,13 @@ console.log("I migrated to", myHouse.migrate("Posong").city);
 
 
 ///// Add objects to DOM /////
-var body = document.querySelector("body");
+var app = document.querySelector("#app");
 var car_node = document.createElement("p");
 var house_node = document.createElement("p");
 car_node.id = "my-car";
 house_node.id = "my-house";
-body.appendChild(car_node);
-body.appendChild(house_node);
+app.appendChild(car_node);
+app.appendChild(house_node);
 
 car_node.innerText = `My car's price: ${myCar.price}`;
 house_node.innerText = `My house is in ${myHouse.city}`;
