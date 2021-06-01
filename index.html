@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ES6 import/export</title>
+    <meta name="description" content="An example of ES6 module import & export in the browser">
     <script type="module" src="main.js"></script>
 </head>
-<body>
-    <h1>JavaScript Class & Import</h1>
 
-    <input type="number" name="car-price" id="price" placeholder="Price to add">
+<body>
+    <h1>JavaScript ES6 module Import & Export</h1>
+    <p>Take a look at the <a href="https://github.com/liao961120/js">source code</a> and read the logs in the browser's console.</p>
+
+    <h2>Play with the buttons below</h2>
+
+    <label for="price">Price to add:</label>
+    <input type="number" name="price" id="price" min="0" max="5000" value="50">
     <button id="add-price">Add price</button>
     
-    <input type="text" name="house-city" id="city" placeholder="City to migrate">
+    <label for="city">Migrate to:</label>
+    <input type="text" name="city" id="city" value="Taipei">
     <button id="migrate">Migrate</button>
 </body>
 </html>
